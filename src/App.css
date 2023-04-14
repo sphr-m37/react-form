@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --lighter-color: #F4F9F9;
+    --light-color: #F1D1D0;
+    --pink-color: #FBACCC;
+    --pinker-color: #F875AA;
+    --btns-color: #cf2a6cc8;
+    --inputs-color: #952e2e;
+    --inputs-bg-color: #f2dfdfc5;
+    --title-color: #e46e9d;
+    --label-color: #d43776;
+    --label-bg-color: #ef5291dc;
+    --gradient: linear-gradient(var(--lighter-color) 20%,
+            var(--light-color) 40%,
+            var(--pink-color) 60%,
+            var(--pinker-color));
+    --reverse-gradient: linear-gradient(var(--pinker-color) 20%,
+            var(--pink-color) 40%,
+            var(--light-color) 60%,
+            var(--lighter-color));
+    --spacing-5: 5px;
+    --spacing-10: 10px;
+    --spacing-15: 15px;
+    --spacing-20: 20px;
+    --spacing-25: 25px;
+    --spacing-30: 30px;
+    --transition: 0.5s;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--pink-color);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--pinker-color);
+
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+
+}
+
+ul,
+li {
+    list-style: none;
+}
